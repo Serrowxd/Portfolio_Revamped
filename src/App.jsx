@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
+import Layout from "./components/Layout";
 
 const App = () => {
   return (
-    <div>
+    <Layout>
       <h1>Henlo</h1>
-    </div>
+    </Layout>
   );
 };
 
