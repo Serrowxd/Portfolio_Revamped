@@ -1,17 +1,14 @@
 import React from "react";
+import Navigation from "./Navigation";
 
 const Layout = ({ children }) => {
   return (
     <div className="global-wrapper">
-      <div>
-        <h1>Navigation</h1>
-      </div>
+      <Navigation />
 
       {children}
 
-      <div>
-        <h1>Footer</h1>
-      </div>
+      {/* Footer? */}
     </div>
   );
 };

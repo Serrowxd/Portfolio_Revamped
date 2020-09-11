@@ -1,3 +1,16 @@
 html,
 body {
   font-family: "Maven Pro", sans-serif; }
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  padding: 1rem; }
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  width: 30rem; }
