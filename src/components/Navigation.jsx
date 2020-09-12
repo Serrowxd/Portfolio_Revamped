@@ -1,10 +1,11 @@
 import React from "react";
+import img from "../assets/phx.png";
 
 const Navigation = () => {
   return (
     <div className="nav-wrapper">
       <div className="nav-header">
-        <h1>K/J</h1>
+        <img src={img} alt="nav" />
       </div>
       <div className="nav-items">
         <p className="nav-item">Home</p>
