@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import LeftNav from "./LeftNav";
 import Navigation from "./Navigation";
 
 const Layout = ({ children }) => {

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { BrowserRouter as Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (

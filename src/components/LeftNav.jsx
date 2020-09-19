@@ -1,9 +1,9 @@
 import React from "react";
-import { BrowserRouter as Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const LeftNav = () => {
+const LeftNav = (props) => {
   return (
-    <div className="smol_nav">
+    <div className={props.nav ? "smol_nav" : "hidden_nav"} id="side_nav">
       <div className="smol_buttons">
         <Link to="/">
           <p>Home</p>
